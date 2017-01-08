@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+  	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' />  
+  </head>
+  <body>
+    <div class="ui text container">	
+    	<h1 class="ui header teal center aligned"> Elastic Search Demo</h1>
+      <p>
+        <div class="ui yellow label">Execution Time <span id="took"></span></div>
+        <div class="ui red label">Total Hits <span id="total"></span></div>
+      </p>
+      <div class="grid">
+  			<div class="column">
+  				<form class='ui large form'>
+  						<div class="field">
+  							<input type="text" id="search" placeholder="Enter city, state, address, name to search Restaurants">
+  						</div>
+  				</form>
+  				<br>
+  				<div class="ui container">
+  					<div class="ui list">
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+    </div>		
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/script.js"></script>
+    					 					
+  </body>
+</html>
